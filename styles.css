@@ -1,0 +1,145 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#about,
+#store,
+#gmail,
+#images {
+    display: inline-block;
+    color: #6e6e6e;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+#about,
+#store {
+    float: left;
+    margin-left: 15px;
+}
+
+#gmail,
+#images,
+#apps,
+#user {
+    float: right;
+    margin-right: 15px;
+}
+
+#apps {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#user {
+    margin-top: 5px;
+    margin-right: 22px;
+}
+
+#logo {
+    position: relative;
+    height: 92px;
+    width: 272px;
+}
+
+#logo_container {
+    margin-top: 147px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex_container {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+#glass {
+    display: inline-block;
+    height: 38px;
+    width: 50px;
+    border-radius: 50px 0 0 50px ;
+    border: solid rgba(128, 128, 128, 0.3) 1px;
+    border-right: none;
+}
+
+#search {
+    width: 50%;
+    max-width: 480px;
+    height: 40px;
+    border: solid rgba(128, 128, 128, 0.3) 1px;
+    border-right: none;
+    border-left: none;
+    outline: none;
+}
+/* outline removes the focus state on the search bar */
+
+#button_container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: rgba(128, 128, 128, 0.1);
+    border-style: none;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+#mic {
+    display: inline-block;
+    height: 38px;
+    width: 50px;
+    border-radius: 0 50px 50px 0;
+    border: solid rgba(128, 128, 128, 0.3) 1px;
+    border-left: none;
+}
+
+#user {
+    text-align: center;
+    height: 30px;
+    line-height: 30px; /* height of the container */
+    width: 30px;
+    color: white;
+    border-radius: 500px;
+    background: rgb(95, 95, 252);
+    font-size: .9em;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(238, 238, 238);
+}
+
+footer > h3 {
+    display: inline-block;
+    color: #6e6e6e;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+#advertising,
+#business,
+#howSearchWorks {
+    float: left;
+    margin-left: 30px;
+}
+
+#privacy,
+#terms,
+#settings {
+    float: right;
+    margin-right: 30px;
+}
